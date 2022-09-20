@@ -1,0 +1,24 @@
+.blogs-news-events {
+    text-align: left;
+    width: 100vw;
+    box-sizing: border-box;
+
+}
+
+.blognews-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.bne-row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.blogs {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}

@@ -1,0 +1,108 @@
+.careers-section {
+   
+   height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+   
+   background-image: url("../images/careers.png");
+  background-repeat: no-repeat;
+   background-size: 100% 100%;
+   text-align: left;
+   
+
+    
+}
+.careers-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    width: 100%;
+}
+.career-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1px solid black;
+}
+
+.careers-content{
+    font-size: 1.5rem;
+    height: 100%;
+    width: 100%;
+   }
+ 
+   .image {
+    display: flex;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100%;
+    
+
+} 
+.career-hr {
+    border-top: 1px solid #000;
+}
+.text {
+    color: #000;
+}
+
+@media screen and (min-width:420px) and (max-width:650px)  {
+    .careers-section {
+       
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         align-items: center;
+         background-image: url("../images/careers.png");
+         height: 70vh;
+         width: auto;
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         text-align: left;
+        }
+        .padding-lr{
+            padding: 0% 13%;
+            
+          }
+     .careers-heading {
+         display: flex;
+         flex-direction: column;
+         justify-content: start;
+          width: 100%;
+     }
+     .career-row {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 1px solid black;
+     }
+     
+     .careers-content{
+         font-size: 1.0rem;
+         height: 100%;
+         width: 100%;
+        }
+      
+        /* .image {
+         display: flex;
+         align-items: center;
+        height: 80vh;
+         width: 100%;
+         
+     
+     }  */
+     .career-hr {
+         border-top: 1px solid #000;
+     }
+     .text {
+         color: #000;
+     }
+
+}

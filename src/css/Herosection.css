@@ -1,0 +1,144 @@
+.row-hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("../images/heroimg.png");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+
+}
+
+h1 {
+    color: #ffff;
+    font-size: 4em;
+}
+
+.herosection-content {
+    width: 50%;
+    color: #ffff;
+}
+
+.colour {
+    color: orangered;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+.nav-arrow {
+    margin: 0% 1.3rem;
+    color: orangered;
+}
+
+.hero-hr {
+    display: flex;
+    margin-top: -8%;
+}
+
+.hero-hr>.hr-left {
+    color: red;
+    font-weight: bolder;
+}
+
+.hero-hr>.hr-right {
+    color: gray;
+    font-weight: lighter;
+}
+
+.arrow-herosection {
+  
+    /* bottom: 0; */
+    /* right: 8%; */
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    
+    font-size: 45px;
+    color: #ffff;
+    padding-top: 32%;
+    padding-left: 45%;
+}
+
+
+@media screen and (min-width:420px) and (max-width:650px) {
+    .row-hero-section {
+        height: 70vh;
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        background-image: url("../images/heroimg.png");
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        text-align: left;
+
+    }
+
+    .padding-tb {
+        padding: 10% 8%;
+    }
+
+    h1 {
+        color: #ffff;
+        font-size: 1.5rem;
+    }
+
+    .herosection-content {
+        width: 55%;
+        color: #ffff;
+    }
+
+    .herosection-content > h4{
+        font-size: 0.4rem;
+        color: #ffff;
+    }
+    .herosection-content > p {
+        width: 30vw;
+    }
+
+    .colour {
+        color: orangered;
+    }
+
+    p {
+        font-size: 0.4rem;
+    }
+
+    .nav-arrow {
+        margin: 0% 1.0rem;
+        color: orangered;
+    }
+
+    .hero-hr {
+        display: flex;
+        margin-top: -5%;
+    }
+
+    .hero-hr>.hr-left {
+        color: red;
+        font-weight: bolder;
+        
+    }
+
+    .hero-hr>.hr-right {
+        color: gray;
+        font-weight: lighter;
+    }
+
+    .arrow-herosection {
+       
+        display: flex;
+        font-size: 1.2rem;
+        color: #ffff;
+        padding-top: 55%;
+        padding-left: 45%;
+        
+    }
+
+
+}

@@ -1,0 +1,150 @@
+.container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    max-width: 100vw;
+}
+
+/* padding-tb-global */
+.columns {
+    padding: 15% 0% 0% 15%;
+    margin-right: 5%;
+    text-align: justify;
+    height: 100vh;
+    width: 100vw;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.global-title {
+    font-size: 1.2rem;
+    letter-spacing: 2%;
+    line-height: 8vh;
+    text-align: left;
+}
+
+.column>img {
+    width: 75%;
+}
+
+.We-are-local {
+    font-family: Mont;
+    font-size: 3.0rem;
+    letter-spacing: -0.35px;
+    line-height: 8vh;
+    text-align: left;
+    color: black
+}
+
+.colour {
+    color: orangered;
+}
+
+h1 {
+    color: black;
+}
+
+.global-usa > img {
+    display: flex;
+    height: 110vh;
+}
+
+.hero-hr {
+    display: flex;
+    margin-top: -8%;
+}
+
+.hero-hr>.hr-left {
+    color: red;
+    font-weight: bolder;
+}
+
+.hero-hr>.hr-right {
+    color: gray;
+    font-weight: lighter;
+}
+
+@media screen and (min-width:420px) and (max-width:650px) {
+    .container-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 50vh;
+        max-width: 100vw;
+    }
+    
+    .columns {
+        padding: 45% 0% 0% 6%;
+        text-align: left;
+        height: 100vh;
+        width: 100vw;
+    }
+    .betacraft {
+        margin-right:25% ;
+    }
+    
+    .column {
+        display: flex;
+        align-items: center;
+    
+    }
+    .global-title {
+        font-size: 0.5rem;
+        letter-spacing: 2%;
+        line-height: 4vh;
+        text-align: left;
+    }
+    
+    .column>img {
+        width: 95%;
+        padding-top: -30%;
+    }
+    
+    .We-are-local {
+        font-family: Mont;
+        font-size: 1.5rem;
+        letter-spacing: -0.15px;
+        line-height: 4vh;
+        text-align: left;
+        color: black
+    }
+    h4 {
+        font-size: 0.6rem;
+        margin-top: ;
+    }   
+    .colour {
+        color: orangered;
+    }
+    
+    h1 {
+        color: black;
+    }
+    
+    .global-usa > img {
+        display: flex;
+        height: 72vh;
+    }
+    
+    .hero-hr {
+        display: flex;
+        margin-top: -5%;
+    }
+    
+    .hero-hr>.hr-left {
+        color: red;
+        font-weight: bolder;
+    }
+    
+    .hero-hr>.hr-right {
+        color: gray;
+        font-weight: lighter;
+    }
+}

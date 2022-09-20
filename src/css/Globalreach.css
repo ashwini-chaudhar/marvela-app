@@ -1,0 +1,59 @@
+.row-primary-icons{
+   display: flex;
+   
+   justify-content: center;
+    margin-top: 100px;
+}
+.company-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .company-icons > ul >li:not(:first-child) {
+     margin: 50px;
+  }  
+
+  @media screen and (min-width:420px) and (max-width:650px)  {
+
+    .global-reach > .text {
+      font-size: 1.2rem;
+    }
+    
+    .row-primary-icons{
+      display: flex;
+      justify-content: center;
+       margin-top: 15%;
+   }
+   .company-icons {
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+   }
+   
+     ul {
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       padding: 0;
+       margin: 0;
+     }
+     .company-icons > ul >li:not(:first-child) {
+        margin: 6%;
+        
+     }  
+     .company-icons > ul >li > img{
+      height: 4vh;
+      width: 17vw;
+      /* display: flex; */
+      justify-content: space-between;
+      margin: 2% 1%
+     } 
+  }

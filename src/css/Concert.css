@@ -1,0 +1,153 @@
+.concert-componet{
+    background-color: #f0f2f5;
+    height: 47vh;
+    width: 43vw;
+    border-radius: 15px;
+    /* position: absolute; */
+    /* top: 800px; */
+    /* left: 420px; */
+    bottom: 20%;
+    text-align: center;
+    display: block;
+    margin-top: 39%;
+}
+.back-ground{
+    background-image: url("../images/concert.jpeg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    display: flex;
+    Justify-content: center;
+     align-items:center;
+    
+}
+
+.lorem{
+    font-size: 1.4rem;
+    /* padding-left: 0px; */
+    padding-top: 2%;
+    font-weight: 480;
+    color: black;
+
+   
+}
+.bill{
+    border-radius: 50%;
+    height: 7vh;
+  
+   
+}
+.bill-1{
+    padding-left: 9%;
+}
+.profile-name{
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+.btn-circle{
+    color: orangered;
+    font-weight: 500;
+    padding-left: 33%;
+    padding-top: 2.5%;
+
+}
+.concert-icon-arrow{
+    padding-left: 40%;
+    color: black;
+    font-size: 1.5rem;
+    padding-bottom: 20%;   
+}
+
+.chat-q{
+    color: orangered;
+    padding-left:5%;
+    padding-top: 20%;
+    font-size:3.3rem;
+
+
+}
+
+.btn-circle > p {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5%;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:420px) and (max-width:650px)  {
+    .concert-componet{
+        background-color: #f0f2f5;
+        height: 37vh;
+        width: 50vw;
+        border-radius: 15px;
+        bottom: 20%;
+        text-align: center;
+        display: block;
+        margin-top: 80%;
+    }
+    .back-ground{
+        background-image: url("../images/concert.jpeg");
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: 100% 100%; 
+        display: flex;
+        Justify-content: center;
+         align-items:center;
+        
+    }
+    
+    .lorem{
+        font-size: 0.7rem;
+        padding-top: 2%;
+        font-weight: 480;
+        color: black;
+    
+       
+    }
+    .bill{
+        border-radius: 50%;
+        height: 4vh;
+      
+       
+    }
+    .bill-1{
+        padding-left: 8%;
+    }
+    .profile-name{
+        font-size: 0.6rem;
+        font-weight: 200;
+        padding-left: 5%;
+        padding-top: 1%;
+    }
+    .btn-circle{
+        color: orangered;
+        font-weight: 500;
+        padding-left: 33%;
+        padding-top: 2.5%;
+    
+    }
+    .btn-circle {
+        display: flex;
+        flex-direction: row;
+        padding-left: 26%;
+        font-size: 0.8rem;
+    }
+    .concert-icon-arrow{
+        padding-left: 20%;
+        color: black;
+        font-size: 0.8rem;   
+    }
+    
+    .chat-q{
+        color: orangered;
+        padding-left:5%;
+        padding-top: 20%;
+        font-size:2.5rem;
+    
+    
+    }
+    
+
+}

@@ -1,0 +1,79 @@
+.feature-section {
+  background-image: url("../images/feature.png");
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  background-size: cover;
+  border-radius: 4%;
+  width: 70vh;
+  height: 80vh;
+  text-align: justify;
+  padding: 5%;
+
+  box-sizing: border-box;
+
+}
+
+.feature-min-read {
+  color: #ffff;
+  font-size: 1.2rem;
+  line-height: 4vh;
+
+}
+
+.features-description {
+  color: #ffff;
+  font-size: 1.2rem;
+  margin: 4% 0%;
+}
+
+.december-14 {
+  color: #ffff;
+  font-family: SFProDisplay;
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width:420px) and (max-width:650px) {
+  
+  .padding-tb
+  {
+    padding: 8% 2% ;
+    
+  }
+  .feature-section {
+    background-image: url("../images/feature.png");
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    background-size: cover;
+    border-radius: 4%;
+    width: 35vh;
+    height: 42vh;
+    text-align: justify;
+    padding: 2%;
+  
+    box-sizing: border-box;
+  
+  }
+  
+  .feature-min-read {
+    color: #ffff;
+    font-size: 0.8rem;
+    line-height: 3vh;
+  
+  }
+  
+  .features-description {
+    color: #ffff;
+    font-size: 0.6rem;
+    margin: 2% 0%;
+  }
+  
+  .december-14 {
+    color: #ffff;
+    font-family: SFProDisplay;
+    font-size: 1.0rem;
+  
+  
+  }
+}
