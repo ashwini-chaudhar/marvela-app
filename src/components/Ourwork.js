@@ -1,5 +1,4 @@
 import React from 'react'
-import work from '../images/workhome.jpg'
 import '../css/Ourwork.css'
 
 export default function Ourwork() {

@@ -8,10 +8,10 @@ export default function Global() {
   return (
     <div className='container-row padding-tb-global' >
         <div className='column'>
-        <img src={image}></img>
+        <img src={image} alt=''></img>
         </div>
         <div className='global-usa'>
-        <img src={globalusa}></img>
+        <img src={globalusa} alt=''></img>
         </div>
         <div className='columns'>
        <p className='global-title'> WHO WE ARE </p>

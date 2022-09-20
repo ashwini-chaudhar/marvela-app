@@ -2,15 +2,14 @@
   background-image: url("../images/feature.png");
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
   background-size: cover;
   border-radius: 4%;
   width: 70vh;
   height: 80vh;
   text-align: justify;
   padding: 5%;
-
-  box-sizing: border-box;
+ box-sizing: border-box;
 
 }
 
@@ -44,7 +43,7 @@
     background-image: url("../images/feature.png");
     display: flex;
     flex-direction: row;
-    align-items: end;
+    align-items: flex-end;
     background-size: cover;
     border-radius: 4%;
     width: 35vh;

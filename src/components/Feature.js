@@ -1,6 +1,5 @@
 import React from 'react'
 import '../css/Feature.css'
-import feature from '../images/feature.png'
 
 export default function Feature() {
   return (

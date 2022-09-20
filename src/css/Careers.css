@@ -17,7 +17,7 @@
 .careers-heading {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
    
     width: 100%;
 }
@@ -73,7 +73,7 @@
      .careers-heading {
          display: flex;
          flex-direction: column;
-         justify-content: start;
+         justify-content: flex-start;
           width: 100%;
      }
      .career-row {
